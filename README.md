@@ -15,4 +15,6 @@ From the tests performed, the spline method combined with the Exp preconditioner
 
 In summary - the spline method with preconditioning converged more robustly than the other NEB methods within a reasonable number of steps. If you want to have a closer look at the data, some run information is stored in JSON files, which can be read and plotted in the Testanalysis Jupyter notebook in the git repository above. The running scripts in there should explain how to set-up these calculations as well.
 
-
+![alt text](https://github.com/GabrielBram/MACE_ASE-NEB_tests/blob/main/figures/Cu100_CO2_dissoc_NEB-comparison.png?raw=true)
+![alt text](https://github.com/GabrielBram/MACE_ASE-NEB_tests/blob/main/figures/Cu110_HCO2_formation_NEB-comparison.png?raw=true)
+![alt text](https://github.com/GabrielBram/MACE_ASE-NEB_tests/blob/main/figures/H-SSZ-13_SMS_migration_NEB-comparison.png?raw=true)
