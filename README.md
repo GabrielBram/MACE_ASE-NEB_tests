@@ -14,3 +14,5 @@ Tests were performed for reactions: occurring on the Cu100 and Cu110 surface (HC
 From the tests performed, the spline method combined with the Exp preconditioner gave the most reliable convergence of the tested methods, successfully converging below the (rather tight) Fmax threshold of 0.02 Ha/Bohr for all test examples. The string method was far less robust, failing to approach a looser convergence threshold of 0.04 Ha/Bohr. Convergence was achieved for the spline NEB Optimizer case within 161, 84, and 118 total steps for reactions 1-3 respectively. In the case where the default NEB implementation managed to converge, the preconditioned spline optimizer gave a speed-up of 8 steps overall.
 
 In summary - the spline method with preconditioning converged more robustly than the other NEB methods within a reasonable number of steps. If you want to have a closer look at the data, some run information is stored in JSON files, which can be read and plotted in the Testanalysis Jupyter notebook in the git repository above. The running scripts in there should explain how to set-up these calculations as well.
+
+
